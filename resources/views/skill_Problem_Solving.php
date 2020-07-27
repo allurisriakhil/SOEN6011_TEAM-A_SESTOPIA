@@ -5,83 +5,71 @@
     <div class="container">
         <div class="row justify-content-between align-items-start">
             <div class="col-lg-8 mb-4 mb-lg-0">
-                <div class="d-flex">
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                            <li class="breadcrumb-item">
-                                <a href="help-center-home.html">Skills</a>
-                            </li>
-                            <li class="breadcrumb-item">
-                                <a href="help-center-category.html">Skill Name</a>
-                            </li>
-                        </ol>
-                    </nav>
-                </div>
-                <h2 class="h1 mt-4">Problem Solving</h2>
-                <div class="lead">Consectetur adipiscing elit. Phasellus feugiat elit.</div>
+                
+                <h2 class="h1 mt-4">Problem Solving </h2>
                 <hr class="my-md-4 my-lg-5">
                 <div class="row">
                     <div class="col-xl-10">
                         <article class="article">
-                            <h3 class="h2">Defining a Problem and complexity</h3>
+                            <h3 class="h2">What is Problem Solving?</h3>
                             <p>
-                                Aenean Gendry est nec diam suscipit iaculis. Praesent urna velit, auctor nec turpis et, vehicula lobortis sem. Vivamus convallis mi sagittis eleifend laoreet. Praesent vitae venenatis enim. Nulla tincidunt Varys et lectus rhoncus laoreet. Aenean Gendry
-                                est nec diam suscipit iaculis. Praesent urna velit, auctor nec turpis et, vehicula lobortis sem. Vivamus convallis mi sagittis eleifend laoreet. Praesent vitae venenatis enim. Nulla tincidunt Varys et lectus rhoncus laoreet.
-                            </p>
+                                Problem Solving is the process of defining a problem,determining the cause of the problem then identifying, prioritizing, and selecting alternatives for a solution; and implementing a solution.
+
+
+                                <h3> Defining a Problem </h3>
+                                <p>The key to a good problem definition is ensuring that you deal with the real problem – not its symptoms. For example, if performance in your department is substandard, you might think the problem is with the individuals submitting work. However, if you look a bit deeper, the real issue might be a lack of training, or an unreasonable workload.</p>
+
+                                <h4>Understanding Complexity</h4>
+                                <p>When your problem is simple, the solution is usually obvious, and you don't need to follow the four steps we outlined earlier. So it follows that when you're taking this more formal approach, your problem is likely to be complex and difficult to understand, because there's a web of interrelated issues.</p>
+
+<p>The good news is that there are numerous tools you can use to make sense of this tangled mess! Many of these help you create a clear visual representation of the situation, so that you can better understand what's going on.</p>
+
+                                
+                                <h4>Problem-Solving Processes</h4>
+                                <p> Simplex, Appreciative Inquiry or Soft Systems Methodology (SSM), these provide detailed steps that you can use to solve a problem effectively.
+                                </p>
+
+                            <h3>Key Skills Required for Problem Solving</h3>
                             <p>
-                                Praesent urna velit, auctor nec turpis et, vehicula lobortis sem. Vivamus convallis mi sagittis eleifend laoreet. Praesent vitae venenatis enim. Nulla tincidunt Varys et lectus rhoncus laoreet.
-                            </p>
+                                
+                            <p>  <b> Creativity: </b> Problems are usually solved either intuitively or systematically. Intuition is used when no new knowledge is needed - you know enough to be able to make a quick decision and solve the problem, or you use common sense or experience to solve the problem. More complex problems or problems that you have not experienced before will likely require a more systematic and logical approach to solve, and for these you will need to use creative thinking.</p>
+                            
+                               <p><b>Researching Skills:</b> Defining and solving problems often requires you to do some research: this may be a simple Google search or a more rigorous research project.</p>
+
+                               
+                               <p><b>Team Working:</b>  Many problems are best defined and solved with the input of other people. Team working may sound like a 'work thing' but it is just as important at home and school as well as in the workplace. See our Team-Working page for more.</p>
+
+<p><b>Emotional Intelligence:</b>  It is worth considering the impact that a problem and/or its solution has on you and other people. Emotional intelligence, the ability to recognise the emotions of yourself and others, will help guide you to an appropriate solution. See our Emotional Intelligence pages for more.</p>
+
+<p><b>Risk Management:</b>  Solving a problem involves a certain amount of risk - this risk needs to be weighed up against not solving the problem. You may find our Risk Management page useful.</p>
+
+<p><b>Decision Making:</b>  Problem solving and decision making are closely related skills, and making a decision is an important part of the problem solving process as you will often be faced with various options and alternatives. See Decision Making for more.</p>
+
+
+
+                            
+
+
+                            
+
+                            <h3> Rationale for Problem Solving</h3>
                             <p>
-                                Dolor sit amet, consectetur adipiscing elit. Phasellus feugiat elit vitae enim lacinia semper. Cras nulla lectus, porttitor vitae urna iaculis, melisandre tincidunt lectus. Brienne nec tellus sit amet massa auctor imperdiet id vitae diam.
+                                Software engineering is about problem-solving first, coding second. Because Computers need to be told exactly what to do; they can’t make assumptions like a human would when given vague instructions. Secondly, software engineers are tasked with designing features and applications that may not even exist yet, so it’s their job to come up with the user interface on the front-end and data infrastructure on the back-end to power it from scratch.
                             </p>
-                            <p>
-                                Gravida est nec diam suscipit iaculis. Praesent urna velit, auctor nec turpis et, vehicula lobortis sem. Vivamus convallis mi sagittis eleifend laoreet. Praesent vitae venenatis enim. Nulla tincidunt Varys et lectus rhoncus laoreet. Aenean Gendry est
-                                nec diam suscipit iaculis. Praesent urna velit, auctor nec turpis et, vehicula lobortis sem. Vivamus convallis mi sagittis eleifend laoreet. Praesent vitae venenatis enim. Nulla tincidunt Varys et lectus rhoncus laoreet.
+
+                            
+
+                           
+
+                            <h3>References</h3>
+                            <p>https://www.mindtools.com/pages/article/newTMC_00.htm
                             </p>
+                             <p>https://www.springboard.com/blog/problem-solving-in-software-engineering-an-inside-look/
+                            </p>
+
                         </article>
-                        <div class="my-4 my-sm-5 card card-body flex-sm-row justify-content-between align-items-center">
-                            <div class="h5 mb-sm-0">What is the problem?</div>
-                            <div class="d-flex">
-                                <a href="#" class="btn btn-sm btn-outline-primary mx-1">Yes</a>
-                                <a href="#" class="btn btn-sm btn-outline-primary mx-1">No</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col sticky-lg-top">
-                <div class="pl-xl-4">
-                    <div class="list-group mb-3 mb-md-4">
-                        <div class="list-group-item">
-                            <h6 class="mb-0">Similar Articles</h6>
-                        </div>
-                        <div class="list-group-item">
-                            <a href="#">Cancelling your subscription</a>
-                            <div class="text-small">Donec a leo ac diam vulputate khaleesi eget est.</div>
-                        </div>
-                        <div class="list-group-item">
-                            <a href="#">Upgrading your plan</a>
-                            <div class="text-small">Volantis phasellus tincidunt vitae libero efficitur viverra.</div>
-                        </div>
-                    </div>
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <h6 class="mb-2">Email Us</h6>
-                            <a href="#">hello@jumpstart.io</a>
-                        </li>
-                        <li class="list-group-item">
-                            <h6 class="mb-2">Call any time</h6>
-                            <a href="#">1800 488 328</a>
-                        </li>
-                        <li class="list-group-item">
-                            <h6 class="mb-2">Get in touch</h6>
-                            <a href="contact-1.html">Leave a message</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="btn btn-primary btn-block mt-3 mt-md-4">Open a Suport Ticket</a>
-                </div>
-            </div>
-        </div>
+                        
+           
     </div>
 </section>
 @endsection
