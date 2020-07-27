@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Landing;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 
 class LandingController extends Controller
@@ -24,7 +25,11 @@ class LandingController extends Controller
      */
     public function skills(Request $request)
     {
-        return view('skill');
+        if ($request->skill) {
+            return view('skills.' . $request->skill)->with('skill', Str::title(str_replace('-', ' ', $request->skill)));
+        }
+
+        return view('skills');
     }
 
     /**

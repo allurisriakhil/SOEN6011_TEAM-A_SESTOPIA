@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'Landing\LandingController@index')->name('home');
-Route::get('/skills', 'Landing\LandingController@skills')->name('skills');
+Route::get('/skills/{skill?}', 'Landing\LandingController@skills')->name('skills');
 Route::get('/search', 'Landing\LandingController@search')->name('search');
 
 Auth::routes();

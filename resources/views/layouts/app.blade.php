@@ -9,6 +9,8 @@
 
     <title>{{ config('app.name') }}</title>
 
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('favicon.png') }}">
+
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
@@ -33,7 +35,7 @@
         @include('layouts.partials.footer')
 
         <a href="#top" class="btn btn-primary rounded-circle btn-back-to-top" data-smooth-scroll data-aos="fade-up" data-aos-offset="2000" data-aos-mirror="true" data-aos-once="false">
-            <img src="{{ asset('images/icon-arrow-up.svg') }}" alt="Icon" class="icon bg-white" data-inject-svg>
+            <img src="{{ asset('images/icon-arrow-up.svg') }}" alt="Icon" class="icon">
         </a>
     </div>
 </body>

@@ -8,20 +8,17 @@
 // Color Scheme
 // Change the hex values below to alter the main color scheme.
 
-$primary:       #009b72;
-$primary-2:     #046865;
-$primary-3:     #192d35;
+$primary: #ff7429;
+$primary-2: #046865;
+$primary-3: #ff57225e;
 
 // Do not change or remove the $theme-color-scheme or $theme-colors maps below
 
-$theme-color-scheme: (
-    "primary":    $primary,
-    "primary-2":  $primary-2,
-    "primary-3":  $primary-3
-);
+$theme-color-scheme: ("primary": $primary,
+    "primary-2": $primary-2,
+    "primary-3": $primary-3);
 
-$theme-colors: (
-    "primary":    $primary,
-    "primary-2":  $primary-2,
-    "primary-3":  $primary-3,
+$theme-colors: ("primary": $primary,
+    "primary-2": $primary-2,
+    "primary-3": $primary-3,
 );

@@ -1,9 +1,10 @@
-<footer class="bg-primary-3 text-white links-white pt-4 pb-4 footer-1">
+<footer class=" pt-4 pb-4 footer-1">
     <div class="container">
         <div class="row flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left">
             <div class="col-auto">
                 <div class="d-flex flex-column flex-sm-row align-items-center text-small">
-                    <div class="text-muted">&copy; {{ date('Y') }} {{ config('app.name') }}
+                    <div class="text-muted">
+                        &copy; {{ date('Y') }} {{ config('app.name') }} - Team A
                     </div>
                 </div>
             </div>

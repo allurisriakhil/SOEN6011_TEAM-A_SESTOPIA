@@ -4,22 +4,29 @@
 //
 //
 
-.navbar{
+.navbar {
     z-index: $zindex-sticky;
     width: 100%;
-    &[data-overlay]{
+
+    &[data-overlay] {
         position: absolute;
     }
-    &[data-sticky="top"]{
+
+    &[data-sticky="top"] {
         transition: $transition-base;
         will-change: background-color;
-        &.scrolled{
+
+        &.scrolled {
             z-index: $zindex-sticky+1;
         }
     }
+
+    a {
+        color: $gray-700;
+    }
 }
 
-.navbar-container{
+.navbar-container {
     position: relative;
 }
 
@@ -63,10 +70,10 @@
     }
 }
 
-@include media-breakpoint-down(lg){
-    .navbar-expand-lg{
-        .navbar-nav{
-            .nav-link{
+@include media-breakpoint-down(lg) {
+    .navbar-expand-lg {
+        .navbar-nav {
+            .nav-link {
                 padding-left: $spacer/2;
                 padding-right: $spacer/2;
             }
@@ -83,6 +90,7 @@
 }
 
 .navbar-dark {
+
     .navbar-brand-dynamic-color,
     .navbar-toggler {
         svg {
@@ -136,29 +144,45 @@
 
 // Sticky Nav
 
-.navbar{
-    &.scrolled, &.navbar-toggled-show{
+.navbar {
+    .navbar-nav {
+        .nav-item {
+            &.active {
+                a.nav-link {
+                    color: $primary;
+                }
+            }
+        }
+    }
+
+    &.scrolled,
+    &.navbar-toggled-show {
         background-color: $white;
-        &.navbar-dark{
-            .navbar-nav{
-                .nav-link{
+
+        &.navbar-dark {
+            .navbar-nav {
+                .nav-link {
                     color: $navbar-light-color;
-                    &:hover{
+
+                    &:hover {
                         color: $navbar-light-hover-color;
                     }
-                    &.dropdown-toggle{
-                        &:after{
+
+                    &.dropdown-toggle {
+                        &:after {
                             @include dropdown-arrow-image($gray-900, 90deg);
                         }
                     }
                 }
             }
-            .navbar-brand-dynamic-color, .navbar-toggler{
-                svg{
+
+            .navbar-brand-dynamic-color,
+            .navbar-toggler {
+                svg {
                     [stroke]:not([stroke="none"]) {
                         stroke: $gray-900;
                     }
-        
+
                     [fill]:not([fill="none"]) {
                         fill: $gray-900;
                     }
