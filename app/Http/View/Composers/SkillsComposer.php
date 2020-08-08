@@ -2,6 +2,7 @@
 
 namespace App\Http\View\Composers;
 
+use App\Models\Skill;
 use Illuminate\View\View;
 
 class SkillsComposer
@@ -20,16 +21,7 @@ class SkillsComposer
      */
     public function __construct()
     {
-        $this->skills = collect([
-            'High Quality Documentation',
-            'Regression Testing',
-            'Elicitation of Requirements',
-            'User Interface Prototyping',
-            'Verification and Validation',
-            'Planning Measurement Process',
-            'Problem Solving',
-            'Coding'
-        ]);
+        $this->skills = Skill::all(['slug', 'name', 'knowledge_area'])->load('author');
     }
 
     /**

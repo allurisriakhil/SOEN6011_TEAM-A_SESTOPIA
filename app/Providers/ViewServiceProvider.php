@@ -25,8 +25,13 @@ class ViewServiceProvider extends ServiceProvider
     public function boot()
     {
         View::composer(
-            ['layouts.partials.navbar', 'skills'],
+            ['layouts.partials.navbar', 'skills.index'],
             'App\Http\View\Composers\SkillsComposer'
+        );
+
+        View::composer(
+            ['skills.show'],
+            'App\Http\View\Composers\TableOfContentComposer'
         );
     }
 }

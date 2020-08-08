@@ -4,7 +4,7 @@
             <a href="{{ route('skills') }}">Skills</a>
         </li>
         <li class="breadcrumb-item">
-            <a href="{{ route('skills', ['skill' => Str::slug($skill)]) }}">{{ $skill }}</a>
+            <a href="{{ route('skills', ['skill' => $skill->slug]) }}">{{ $skill->name }}</a>
         </li>
     </ol>
 </nav>

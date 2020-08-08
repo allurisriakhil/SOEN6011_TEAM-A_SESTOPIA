@@ -5,7 +5,7 @@
     <div class="container">
         <div class="row justify-content-between align-items-center">
             <div class="col-xl-5 col-lg-6 text-center text-lg-left mb-4 mb-md-5 mb-lg-0" data-aos="fade-right">
-                <h1 class="display-3">Software Wiki</h1>
+                <h1 class="display-3">{{ config('app.name') }}</h1>
                 <p class="lead d-none">Launch your SaaS in style with this suite of carefully crafted pages and components.</p>
                 <a href="{{ route('skills') }}" class="btn btn-primary">View Skills</a>
             </div>

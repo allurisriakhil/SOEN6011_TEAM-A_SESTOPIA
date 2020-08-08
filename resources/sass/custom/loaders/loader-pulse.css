@@ -41,7 +41,7 @@ body.loaded>div#app div.loader {
     width: 40px;
     height: 40px;
     margin: 100px auto;
-    background-color: #009B72;
+    background-color: #ff7429;
     border-radius: 100%;
     animation: pulse 1s infinite ease-in-out
 }
