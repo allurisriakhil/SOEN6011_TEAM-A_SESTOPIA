@@ -22,47 +22,47 @@ class TableOfContentComposer
     {
         $this->content = [
             [
-                'slug' => 'name-of-skill',
+                'slug' => 'name',
                 'name' => 'Name of Skill'
             ],
             [
-                'slug' => 'classification-of-skill',
+                'slug' => 'classification',
                 'name' => 'Classification of Skill'
             ],
             [
-                'slug' => 'prerequisites-for-skill',
+                'slug' => 'prerequisites',
                 'name' => 'Prerequisites for Skill'
             ],
             [
-                'slug' => 'related-software-engineering',
+                'slug' => 'related_software_engineering_area',
                 'name' => 'Related Software Engineering Area(s)'
             ],
             [
-                'slug' => 'rationale-for-skill',
+                'slug' => 'rationale',
                 'name' => 'Rationale for Skill'
             ],
             [
-                'slug' => 'roles-for-skill',
+                'slug' => 'roles',
                 'name' => 'Roles for Skill'
             ],
             [
-                'slug' => 'work-related-to-skill',
+                'slug' => 'related_work',
                 'name' => 'Work Related to Skill'
             ],
             [
-                'slug' => 'real-world-example',
+                'slug' => 'real_world_example',
                 'name' => 'Real-World Example'
             ],
             [
-                'slug' => 'role-of-academia',
+                'slug' => 'role_of_academia',
                 'name' => 'Role of Academia or Industry in Cultivating the Skill'
             ],
             [
-                'slug' => 'tools-supporting-the-skill',
+                'slug' => 'tools',
                 'name' => 'Tools Supporting the Skill'
             ],
             [
-                'slug' => 'skill-self-assessment',
+                'slug' => 'self_assessment',
                 'name' => 'Skill Self-Assessment'
             ],
             [

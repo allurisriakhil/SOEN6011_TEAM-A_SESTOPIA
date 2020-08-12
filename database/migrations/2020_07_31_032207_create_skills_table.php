@@ -19,9 +19,11 @@ class CreateSkillsTable extends Migration
             $table->string('name');
             $table->string('knowledge_area');
             $table->unsignedBigInteger('author_id');
+            $table->unsignedBigInteger('content_id');
             $table->timestamps();
 
             $table->foreign('author_id')->references('id')->on('users');
+            $table->foreign('content_id')->references('id')->on('contents');
         });
     }
 

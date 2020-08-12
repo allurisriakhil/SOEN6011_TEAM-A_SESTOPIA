@@ -13,11 +13,14 @@
                 <hr class="my-md-2 my-lg-3">
                 <div class="row">
                     <div class="col-xl-11">
-                        <article class="article">
+                        <div class="article">
                             @foreach ($content as $item)
-                            <a href="{{ __("#{$item['slug']}") }}" class="text-dark h4 d-block" id="{{ $item['slug'] }}">{{ $item['name'] }}</a>
+                            <a href="{{ __("#{$item['slug']}") }}" class="text-dark h4 d-block" id="{{ $item['slug'] }}" data-sticky="{{ __("#{$item['slug']}") }}">
+                                {{ $item['name'] }}
+                            </a>
+                            {!! $skill->content->{$item['slug']} !!}
                             @endforeach
-                        </article>
+                        </div>
                     </div>
                 </div>
             </div>

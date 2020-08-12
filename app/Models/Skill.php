@@ -23,4 +23,12 @@ class Skill extends Model
     {
         return $this->belongsTo('App\Models\User', 'author_id');
     }
+
+    /**
+     * Get the author that owns the phone.
+     */
+    public function content()
+    {
+        return $this->hasOne('App\Models\Content', 'id', 'content_id');
+    }
 }
