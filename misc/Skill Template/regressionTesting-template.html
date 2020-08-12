@@ -1,0 +1,831 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="3xpcoIQ9kwWdXUbyM8asUeT6xyT6ViWkumPAxeNq">
+
+    <title>SESTOPIA</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://softwarewiki.faridibin.tech/favicon.png">
+
+    <!-- Scripts -->
+    <script src="https://softwarewiki.faridibin.tech/js/app.js?v=2020-08-08" defer></script>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="https://softwarewiki.faridibin.tech/css/app.css?v=2020-08-08" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <div class="loader">
+            <div class="loading-animation"></div>
+        </div>
+
+        <div class="navbar-container">
+            <nav class="navbar navbar-expand-lg bg-white" data-sticky="top">
+                <div class="container">
+                    <a class="navbar-brand" href="https://softwarewiki.faridibin.tech">
+                        <img alt="SESTOPIA" src="https://softwarewiki.faridibin.tech/images/logo.png" class="py-1"
+                            height="40">
+                    </a>
+                    <div class="d-flex align-items-center order-lg-3">
+                        <a href="#subscribe" data-toggle="modal"
+                            class="btn btn-primary text-white ml-lg-4 mr-3 mr-md-4 mr-lg-0 d-none d-sm-block order-lg-3">Subscribe</a>
+                        <button aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+                            data-target=".navbar-collapse" data-toggle="collapse" type="button">
+                            <img alt="Navbar Toggler Open Icon" class="navbar-toggler-open icon icon-sm"
+                                src="https://softwarewiki.faridibin.tech/images/icon-menu.svg">
+                            <img alt="Navbar Toggler Close Icon" class="navbar-toggler-close icon icon-sm"
+                                src="https://softwarewiki.faridibin.tech/images/icon-x.svg">
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse order-3 order-lg-2 justify-content-lg-end"
+                        id="navigation-menu">
+                        <ul class="navbar-nav my-3 my-lg-0">
+                            <li class="nav-item ">
+                                <a class="nav-link" href="https://softwarewiki.faridibin.tech">Home</a>
+                            </li>
+                            <li class="nav-item active">
+                                <div class="dropdown">
+                                    <a aria-expanded="false" aria-haspopup="true"
+                                        class="dropdown-toggle nav-link nav-item arrow-bottom"
+                                        data-toggle="dropdown-grid" href="#" role="button">Skills</a>
+                                    <div class="row dropdown-menu">
+                                        <div class="col-auto" data-dropdown-content>
+                                            <div class="dropdown-grid-menu">
+                                                <a href="https://softwarewiki.faridibin.tech/skills/coding"
+                                                    class="dropdown-item active">
+                                                    Coding
+                                                </a>
+                                                <a href="https://softwarewiki.faridibin.tech/skills/elicitation-of-requirements"
+                                                    class="dropdown-item ">
+                                                    Elicitation of Requirements
+                                                </a>
+                                                <a href="https://softwarewiki.faridibin.tech/skills/high-quality-documentation"
+                                                    class="dropdown-item ">
+                                                    High Quality Documentation
+                                                </a>
+                                                <a href="https://softwarewiki.faridibin.tech/skills/planning-measurement-process"
+                                                    class="dropdown-item ">
+                                                    Planning Measurement Process
+                                                </a>
+                                                <a href="https://softwarewiki.faridibin.tech/skills/problem-solving"
+                                                    class="dropdown-item ">
+                                                    Problem Solving
+                                                </a>
+                                                <a href="https://softwarewiki.faridibin.tech/skills/regression-testing"
+                                                    class="dropdown-item ">
+                                                    Regression Testing
+                                                </a>
+                                                <a href="https://softwarewiki.faridibin.tech/skills/user-interface-prototyping"
+                                                    class="dropdown-item ">
+                                                    User Interface Prototyping
+                                                </a>
+                                                <a href="https://softwarewiki.faridibin.tech/skills/verification-and-validation"
+                                                    class="dropdown-item ">
+                                                    Verification and Validation
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <form class="mt-3 mt-lg-0" method="GET" action="/search">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text bg-white pr-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" class="injected-svg icon icon-xs bg-dark"
+                                            data-src="assets/img/icons/interface/icon-search.svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <path
+                                                d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                                                stroke="#2C3038" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round"></path>
+                                            <path d="M21 21L16.65 16.65" stroke="#2C3038" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <!-- Code injected by live-server -->
+                                        </svg>
+                                    </span>
+                                </div>
+                                <input class="form-control" placeholder="Type your search" type="search" name="q"
+                                    value="">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <section class="bg-light">
+            <div class="container">
+                <div class="row justify-content-between align-items-start">
+                    <div class="col-lg-8 mb-4 mb-lg-0">
+                        <div class="d-flex">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                        <a href="https://softwarewiki.faridibin.tech/skills">Skills</a>
+                                    </li>
+                                    <li class="breadcrumb-item">
+                                        <a href="https://softwarewiki.faridibin.tech/skills/coding">Coding</a>
+                                    </li>
+                                </ol>
+                            </nav>
+                        </div>
+                        <h2 class="h1 mt-4">Regression Testing<small>By Akanksha (40139125)</small></h2>
+                        <a href="#" class="badge badge-dark mb-3">Software Testing</a>
+                        <hr class="my-md-2 my-lg-3">
+                        <div class="row">
+                            <div class="col-xl-11">
+                                <article class="article">
+
+                                    <a href="#name-of-skill" class="text-dark h4 d-block" id="name-of-skill">Name of
+                                        Skill</a>
+
+                                    <p>Regression Testing</p><br>
+                                    <p>Regression testing is testing existing software applications to ensure that
+                                        changes haven’t broken any existing functionality. Its purpose is to get a hold
+                                        of bugs which may have been accidentally introduced into a new released version
+                                        and at the same time ensure that the previous removed bugs continue to stay
+                                        dead. Changes like fixing bugs, enhancements in software, configuration changes
+                                        and substitution of electronic components require regression testing.</p><br>
+
+                                    <a href="#classification-of-skill" class="text-dark h4 d-block"
+                                        id="classification-of-skill">Classification of Skill</a>
+
+                                    <p>Functional testing is testing the ‘Functionality’ of a software or an application
+                                        under test. It tests the behavior of the software under test. Regression testing
+                                        is a type of functional testing.</p>
+                                    <p>Regression testing is carried out on receiving the build of the software after
+                                        fixing the bugs that were found in the initial round of testing. It verifies
+                                        whether the bugs are fixed and checks if the entire software is working fine
+                                        with the changes.</p>
+
+
+                                    <a href="#prerequisites-for-skill" class="text-dark h4 d-block"
+                                        id="prerequisites-for-skill">Prerequisites for Skill</a>
+
+                                    <p> 1.Code that is being regression tested should be under a configuration
+                                        management tool.<br>
+                                        2.No changes must be allowed to code, during the regression test phase.<br>
+                                        3.Regression test code must be kept immune to developer changes.<br>
+                                        4.The database used for regression testing must be isolated.<br>
+                                        5.No database changes should be allowed.<br>
+                                        6.Configuration management.<br>
+                                    </p>
+
+                                    <p> To plan an effective regression testing one should determine first:</p>
+                                    <ol>
+                                        <li>what test-cases must be executed</li>
+                                        <li>what must be improved and changed in the test-cases</li>
+                                        <li>when it is necessary to execute regression testing of the system</li>
+                                        <li>what and how should be automated</li>
+                                        <li>what is needed to perform the automated testing</li>
+                                        <li>how to analyze the outcomes of the regression testing</li>
+                                    </ol>
+
+
+                                    <p> Technical skills that one should master to become a brilliant regression testing
+                                        engineer:</p>
+                                    <ol>
+                                        <li>Knowledge of Programming languages</li>
+                                        <li>Database concepts</li>
+                                        <li>Project life cycle</li>
+                                        <li>Testing concepts</li>
+                                        <li>Testing types</li>
+                                        <li>Test plan idea</li>
+                                        <li>Ability to analyze requirements</li>
+                                        <li>Documentation skill</li>
+                                        <li>Testing tools</li>
+                                    </ol>
+
+
+                                    <a href="#related-software-engineering" class="text-dark h4 d-block"
+                                        id="related-software-engineering">Related Software Engineering
+                                        Area(s)</a>
+
+                                    <p>UNIT TESTING:<br>
+                                        Unit testing is a level of software testing where individual units or
+                                        components
+                                        of a software are tested. The purpose is to validate that each unit of
+                                        the
+                                        software performs as designed. A unit is the smallest testable part of
+                                        any
+                                        software. It usually has one or a few inputs and usually a single
+                                        output.
+                                    </p>
+                                    <p>INGTEGRATION SYSTEM:<br>
+
+                                        Integration testing is a level of software testing where individual
+                                        units are
+                                        combined and tested as a group. The purpose of this level of testing is
+                                        to
+                                        expose faults in the interaction between integrated units. Test drivers
+                                        and test
+                                        stubs are used to assist in Integration Testing.
+                                    </p>
+                                    <p>SYSTEM SYSTEM:<br>
+                                        System testing is a level of testing that validates the complete and
+                                        fully
+                                        integrated software product. The purpose of a system test is to evaluate
+                                        the
+                                        end-to-end system specifications. Usually, the software is only one
+                                        element of a
+                                        larger computer-based system.
+
+                                    </p>
+
+                                    <p>ACCEPTANCE TESTING:<br>
+                                        Acceptance testing, a testing technique performed to determine if the
+                                        software
+                                        system has met the requirement specifications. The main purpose of this
+                                        test is
+                                        to evaluate the system's compliance with the business requirements and
+                                        verify if
+                                        meets the required criteria for delivery to end users.
+
+                                    </p>
+
+
+
+
+                                    <a href="#rationale-for-skill" class="text-dark h4 d-block"
+                                        id="rationale-for-skill">Rationale for Skill</a>
+
+
+                                    <p>The purpose of Regression Testing is to verify if code change introduces
+                                        issues/defects into the existing functionality. There are so many kinds
+                                        of
+                                        possible changes that can impact the existing functionality in an
+                                        application
+                                        system. Even the simplest change to the code could impact the previously
+                                        tested
+                                        functionality. Regression is initiated when a programmer fixes any bug
+                                        or adds a
+                                        new code for new functionality to the system. There can be many
+                                        dependencies in
+                                        the newly added and existing functionality. It is a quality measure to
+                                        check
+                                        whether the new code complies with the old code so that the unmodified
+                                        code is
+                                        not getting affected. Most of the time the testing team has the task to
+                                        check
+                                        the last minute changes in the system. In such a situation, testing only
+                                        affected application area is necessary to complete the testing process
+                                        on time
+                                        by covering all the major system aspects.
+                                        This test is very important when there is a continuous
+                                        change/improvement added
+                                        in the application. The new functionality should not negatively affect
+                                        the
+                                        existing tested code. Regression is required to find the bugs that
+                                        occurred
+                                        because of a change in the code. If this testing is not done, the
+                                        product might
+                                        get critical issues in the live environment and that indeed can lead the
+                                        customer into trouble.
+                                    </p>
+
+
+                                    <a href="#roles-for-skill" class="text-dark h4 d-block" id="roles-for-skill">Roles
+                                        for Skill</a>
+                                    <p>
+                                        •Regression testing can be used not only for testing the correctness of
+                                        a
+                                        program but often also for tracking the quality of its output. For
+                                        instance, in
+                                        the design of a compiler, regression testing could track the code size
+                                        and the
+                                        time it takes to compile and execute the test suite cases. Change in
+                                        requirements and code is modified according to the requirement<br>
+                                        •New feature is added to the software<br>
+                                        •Defect fixing<br>
+                                        •Fixing performance issues<br>
+                                        •The overall purpose of regression testing is to easily and effectively
+                                        uncover
+                                        all possible software regressions, whether they were newly created
+                                        (local /
+                                        remote) or previously undiscovered (unmasked).<br>
+
+
+                                    </p>
+
+
+
+                                    <a href="#work-related-to-skill" class="text-dark h4 d-block"
+                                        id="work-related-to-skill">Work Related to Skill</a>
+
+                                    <p>An integral part of software testing, test artifacts are the various
+                                        by-products
+                                        generated during the process of software testing, which are then shared
+                                        with the
+                                        clients, team managers, team lead, and other team members and
+                                        stakeholders
+                                        associated with the project. The main purpose of these artifacts is to
+                                        establish
+                                        transparency among the team members and therefore are recorded properly
+                                        with
+                                        accurate information and details.
+                                        These artifacts help testers know the requirements of the clients and
+                                        the
+                                        stakeholders as well as allows them to ensure that there is no
+                                        miscommunication
+                                        between them.</p>
+                                    <p>
+                                        Responsibilities of Regression testers are:<br>
+                                        •Planning the test<br>
+                                        •Making sure that all the necessary resources required for the execution
+                                        of
+                                        testing activities are available.<br>
+                                        •Making sure that the test is passing hand to hand through all the
+                                        planned
+                                        passes or not<br>
+                                        •Preparation of the status report of the testing activities<br>
+                                        •Interaction with the customers<br>
+                                        •Regular updating of the testing activities to the project manager<br>
+                                        •Reading and understanding of all the necessary documents that need to
+                                        be
+                                        tested<br>
+                                        •Deciding how to test based on the above-procured information<br>
+                                        •Informing the test lead regarding the requirement of resources for the
+                                        testing
+                                        to be done<br>
+                                        •Development of test cases and prioritisation of testing activities<br>
+                                        •Execution of all the test cases<br>
+                                        •Reporting of defects<br>
+                                        •Defining the severity and priority for each defect<br>
+                                        •Fixing of defects<br>
+                                    </p>
+
+
+
+
+
+
+                                    <a href="#real-world-example" class="text-dark h4 d-block"
+                                        id="real-world-example">Real-World Example</a>
+                                    <p>
+                                        A real-world example of regression testing is that you take your car to
+                                        a
+                                        mechanic to get the air conditioning fixed, and when you get it back,
+                                        the air
+                                        conditioning is fixed but the gas tank sensor no longer works. Another
+                                        example
+                                        has been explained in the video below.
+                                    </p>
+
+                                    <p>
+                                        Practical Application of Regression Testing Example with a Video<br>
+
+                                        <iframe width="640" height="360" src="https://www.youtube.com/embed/aeu5zacsHsI"
+                                            frameborder="0"
+                                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                            allowfullscreen></iframe>
+
+                                    </p>
+
+
+
+                                    <a href="#role-of-academia" class="text-dark h4 d-block" id="role-of-academia">Role
+                                        of Academia or Industry in Cultivating the Skill</a>
+                                    <p> Top Regression Testing Companies:<br>
+
+                                        1.SPEC INDIA<br>
+                                        2.QA Mentor<br>
+                                        3.Testlio<br>
+                                        4.QualityLogic<br>
+                                        5.UTOR - QA and Testing partner<br>
+                                        6.KiwiQA Services<br>
+                                        7.DeviQA<br>
+                                        8.Testscenario<br>
+
+                                        <p>Infostretch, an IT company optimizes Regression Testing for the
+                                            digital age.
+                                            The IT industry had contributed massively to the cultivation of
+                                            regression
+                                            testing with the emergence of automated regression testing.</p>
+
+                                        Automation regression testing : <br>
+
+                                        <p>Automated regression testing is a way for a development team to
+                                            improve the
+                                            maintenance of a project, ensure high user retention rates, and
+                                            reduce
+                                            potential tech debt. With a wide range of third-party tools,
+                                            automating
+                                            regression testing is not as challenging as it would seem at first
+                                            glance.
+                                            An intelligent regression testing strategy includes knowing how to
+                                            automate
+                                            and prioritize cases, monitor their execution, and write
+                                            comprehensive test
+                                            summary reports.</p>
+
+                                        <b>Research and Academia</b> <br>
+                                        <p>A few Research papers on Regression Testing have been listed
+                                            below:<br>
+
+                                            Multiple regression: Testing and interpreting interactions
+                                            LS Aiken, SG West, RR Reno - 1991 - books.google.com<br>
+
+                                            Insights into regression testing (software testing)
+                                            HKN Leung, L White - Proceedings. Conference on Software …, 1989 -
+                                            ieeexplore.ieee.org<br>
+
+                                            Prioritizing test cases for regression testing
+                                            G Rothermel, RH Untch, C Chu… - IEEE Transactions on …, 2001 -
+                                            ieeexplore.ieee.org<br>
+
+                                            Incremental regression testing
+                                            H Agrawal, JR Horgan, EW Krauser… - 1993 Conference on …, 1993 -
+                                            ieeexplore.ieee.org<br>
+
+                                            Regression testing minimization, selection and prioritization: a
+                                            survey
+                                            S Yoo, M Harman - Software testing, verification and reliability,
+                                            2012 -
+                                            Wiley Online Library<br>
+
+                                            A study of effective regression testing in practice
+                                            WE Wong, JR Horgan, S London… - … The Eighth International …, 1997 -
+                                            ieeexplore.ieee.org<br></p>
+
+                                        <p><b>Books on Regression Testing:</b><br>
+                                            Regression Testing in Era of Internet of Things and Machine Learning
+                                            Software Regression Tools and Methods<br>
+
+                                            Modeling of Test Suite Optimization Framework
+                                            An Enhancement of Regression Testing Techniques<br>
+
+                                            Path Selection Strategy for Regression Testing
+                                            Software Metrics Based Approach<br></p>
+                                    </p>
+
+
+
+                                    <a href="#tools-supporting-the-skill" class="text-dark h4 d-block"
+                                        id="tools-supporting-the-skill">Tools Supporting the Skill</a>
+                                    <p>
+
+                                        Following are the most important tools used for regression testing in
+                                        software
+                                        engineering.<br>
+
+                                        Selenium:<p> This is an open source tool used for automating web
+                                            applications.
+                                            Selenium can be used for browser-based regression testing.</p><br>
+
+                                        Quick Test Professional (QTP):<p>HP Quick Test Professional is automated
+                                            software designed to automate functional and regression test cases.
+                                            It use
+                                            VBScript language for automation. It is a Data-driven, Keyword based
+                                            tool.
+                                        </p>
+
+                                        Rational Functional Tester (RFT):<p> IBM's rational functional tester is
+                                            a Java
+                                            tool used to automate the test cases of software applications. This
+                                            is
+                                            primarily used for automating regression test cases and it also
+                                            integrates
+                                            with Rational Test Manager.</p>
+
+                                        Testimony:<p>Testimony, from Basis Technologies, is a part of the only
+                                            DevOps
+                                            and test automation platform engineered specifically for SAP
+                                            software. It
+                                            reinvents SAP regression testing by eliminating test script creation
+                                            and
+                                            maintenance and removing the need for test data management.</p>
+
+                                        Digivante:<p>Digivante sets the standard for regression, usability and
+                                            conversion testing. It does Regression testing through scripted and
+                                            non-scripted tests that can take as little as 4 hours to complete.
+                                        </p>
+
+                                        Testsigma:<p>
+
+                                            An ideal automated regression testing tool that suggests relevant or
+                                            affected test cases after a feature enhancement/bug fix. Testsigma
+                                            lets you
+                                            run regression tests right after the first check-ins, automatically,
+                                            within
+                                            a sprint.</p>
+
+                                        Sahi Pro: <p>
+
+                                            Sahi Pro is a tester focused automation regressing testing tool. It
+                                            is one
+                                            of the most popular regression testing tools that suits best for
+                                            testing
+                                            large web applications quickly and with lesser maintenance effort.
+                                        </p>
+
+                                        Watir: <p>
+
+                                            Watir (pronounced as water) is a short form for Web Application
+                                            Testing in
+                                            Ruby. It uses the Ruby programming language. Watir can be used to
+                                            automate
+                                            regression testing suites
+                                            TestComplete</p>
+
+
+                                        Katalon Studio:<p>
+
+                                            Katalon Studio is an automated testing solution built on top of
+                                            Selenium and
+                                            Appium for web, API, mobile, and desktop. It is recommended as a top
+                                            Customer's Choice by Gartner Peer Insights.</p>
+
+                                        TimeShiftX:<p>
+
+                                            TimeShiftX is a date shifting software that lets you time travel
+                                            apps to
+                                            perform temporal testing.</p>
+
+                                        Ranorex Studio:<p>
+
+                                            Used by over 4,000 companies worldwide, Ranorex Studio is easy for
+                                            beginners
+                                            with a codeless click-and-go interface and helpful wizards, but
+                                            powerful for
+                                            automation experts with a full IDE.</p>
+
+                                        TestDrive:<p>
+
+                                            TestDrive is an automated software quality (ASQ) solution that lets
+                                            you do
+                                            automated regression testing rapidly. It lets you come up with
+                                            dynamic,
+                                            flexible and easy deployable tests.</p>
+
+                                    </p>
+
+
+                                    <p>
+
+                                        Following are the most important tools used for regression testing in
+                                        software
+                                        engineering.</p>
+
+                                    <ul>
+                                        <li>
+                                            <u>Selenium:</u> This is an open source tool used for automating web
+                                            applications.
+                                            Selenium can be used for browser-based regression testing.
+                                        </li>
+                                        <li>
+                                            <u>Quick Test Professional (QTP):</u>HP Quick Test Professional is automated
+                                            software designed to automate functional and regression test cases.
+                                            It use
+                                            VBScript language for automation. It is a Data-driven, Keyword based
+                                            tool.
+                                        </li>
+                                        <li>
+                                            <u>Rational Functional Tester (RFT):</u>
+                                            IBM's rational functional tester is
+                                            a Java
+                                            tool used to automate the test cases of software applications. This
+                                            is
+                                            primarily used for automating regression test cases and it also
+                                            integrates
+                                            with Rational Test Manager.
+                                        </li>
+                                        <li>
+                                            <u>Testimony:</u>Testimony, from Basis Technologies, is a part of the only
+                                            DevOps
+                                            and test automation platform engineered specifically for SAP
+                                            software. It
+                                            reinvents SAP regression testing by eliminating test script creation
+                                            and
+                                            maintenance and removing the need for test data management.
+                                        </li>
+                                        <li>
+                                            <u>Digivante:</u>
+                                            Digivante sets the standard for regression, usability and
+                                            conversion testing. It does Regression testing through scripted and
+                                            non-scripted tests that can take as little as 4 hours to complete.
+                                        </li>
+                                        <li>
+                                            <u>Testsigma:</u>
+                                            An ideal automated regression testing tool that suggests relevant or
+                                            affected test cases after a feature enhancement/bug fix. Testsigma
+                                            lets you
+                                            run regression tests right after the first check-ins, automatically,
+                                            within
+                                            a sprint.
+                                        </li>
+                                        <li>
+                                            <u>Sahi Pro:</u>
+                                            Sahi Pro is a tester focused automation regressing testing tool. It
+                                            is one
+                                            of the most popular regression testing tools that suits best for
+                                            testing
+                                            large web applications quickly and with lesser maintenance effort.
+                                        </li>
+                                        <li>
+                                            <u>Watir:</u>
+                                            Watir (pronounced as water) is a short form for Web Application
+                                            Testing in
+                                            Ruby. It uses the Ruby programming language. Watir can be used to
+                                            automate
+                                            regression testing suites
+                                            TestComplete
+                                        </li>
+                                        <li>
+                                            <u>Katalon Studio</u>
+                                            Katalon Studio is an automated testing solution built on top of
+                                            Selenium and
+                                            Appium for web, API, mobile, and desktop. It is recommended as a top
+                                            Customer's Choice by Gartner Peer Insights.
+                                        </li>
+                                        <li>
+                                            <u>TimeShiftX</u>
+                                            TimeShiftX is a date shifting software that lets you time travel
+                                            apps to
+                                            perform temporal testing.
+                                        </li>
+                                        <li>
+                                            <u>Ranorex Studio:</u>
+                                            Used by over 4,000 companies worldwide, Ranorex Studio is easy for
+                                            beginners
+                                            with a codeless click-and-go interface and helpful wizards, but
+                                            powerful for
+                                            automation experts with a full IDE.
+                                        </li>
+                                        <li>
+                                            <u>TestDrive</u>
+                                            TestDrive is an automated software quality (ASQ) solution that lets
+                                            you do
+                                            automated regression testing rapidly. It lets you come up with
+                                            dynamic,
+                                            flexible and easy deployable tests.
+                                        </li>
+                                    </ul>
+
+
+                                    <a href="#skill-self-assessment" class="text-dark h4 d-block"
+                                        id="skill-self-assessment">Skill Self-Assessment</a>
+
+                                    <p> MY SKILL SCORE: 8/10</p>
+                                    <p>
+                                        On the scale, I score myself as a 8. Working on this project helped me
+                                        get a
+                                        thorough understanding of regression testing. I was aware about software
+                                        testing
+                                        and various kinds of testing, but never studied anything in depth about
+                                        it.The
+                                        task of developing my skill template led me to research all I could
+                                        about
+                                        regression testing.Hence overall, it was an excellent learning
+                                        experience for me
+                                        .
+
+                                    </p>
+
+
+                                    <a href="#references" class="text-dark h4 d-block" id="references">References</a>
+                                    <ul>
+                                        <li><a
+                                                href="https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/">
+                                                https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/</a>
+                                        </li>
+                                        <li><a href="https://blog.qatestlab.com/2013/09/30/">
+                                                https://blog.qatestlab.com/2013/09/30/</a></li>
+                                        <li><a href="what-is-the-role-of-regression-testing-in-software-development/">
+                                                what-is-the-role-of-regression-testing-in-software-development/</a></li>
+                                        <li><a href="https://dzone.com/articles/what-is-regression-testing-1">
+                                                https://dzone.com/articles/what-is-regression-testing-1</a></li>
+                                        <li><a href="https://en.wikipedia.org/wiki/Regression_testing">
+                                                https://en.wikipedia.org/wiki/Regression_testing</a></li>
+                                        <li><a href="https://airbrake.io/blog/what-is/regression-testing">
+                                                https://airbrake.io/blog/what-is/regression-testing</a></li>
+                                        <li><a href="https://dzone.com/articles/a-brief-overview-of-regression-testing">
+                                                https://dzone.com/articles/a-brief-overview-of-regression-testing</a>
+                                        </li>
+                                        <li><a href="https://dzone.com/articles/a-brief-overview-of-regression-testing">
+                                                https://dzone.com/articles/a-brief-overview-of-regression-testing</a>
+                                        </li>
+                                        <li><a
+                                                href="https://www.researchgate.net/figure/Activities-that-take-place-during-software-maintenance-and-regression-testing_fig3_266446974">
+                                                https://www.researchgate.net/figure/Activities-that-take-place-during-software-maintenance-and-regression-testing_fig3_266446974</a>
+                                        </li>
+                                        <li><a
+                                                href="https://smartbear.com/learn/automated-testing/what-is-regression-testing/">
+                                                https://smartbear.com/learn/automated-testing/what-is-regression-testing/</a>
+                                        </li>
+
+                                        <li><a
+                                                href="https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/">
+                                                https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/</a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="https://www.softwaretestinghelp.com/functional-testing-vs-non-functional-testing/">
+                                                https://www.softwaretestinghelp.com/functional-testing-vs-non-functional-testing/</a>
+                                        </li>
+
+
+                                    </ul>
+
+
+
+                                </article>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col sticky-lg-top">
+                        <div class="pl-xl-0">
+                            <ul class="list-group mb-3 mb-md-4">
+                                <div class="list-group-item">
+                                    <h5 class="mb-0">Page Content</h5>
+                                </div>
+                                <a href="#name-of-skill" class="list-group-item list-group-item-action py-2">Name of
+                                    Skill</a>
+                                <a href="#classification-of-skill"
+                                    class="list-group-item list-group-item-action py-2">Classification of Skill</a>
+                                <a href="#prerequisites-for-skill"
+                                    class="list-group-item list-group-item-action py-2">Prerequisites for Skill</a>
+                                <a href="#related-software-engineering"
+                                    class="list-group-item list-group-item-action py-2">Related Software Engineering
+                                    Area(s)</a>
+                                <a href="#rationale-for-skill"
+                                    class="list-group-item list-group-item-action py-2">Rationale for Skill</a>
+                                <a href="#roles-for-skill" class="list-group-item list-group-item-action py-2">Roles for
+                                    Skill</a>
+                                <a href="#work-related-to-skill"
+                                    class="list-group-item list-group-item-action py-2">Work Related to Skill</a>
+                                <a href="#real-world-example"
+                                    class="list-group-item list-group-item-action py-2">Real-World Example</a>
+                                <a href="#role-of-academia" class="list-group-item list-group-item-action py-2">Role of
+                                    Academia or Industry in Cultivating the Skill</a>
+                                <a href="#tools-supporting-the-skill"
+                                    class="list-group-item list-group-item-action py-2">Tools Supporting the Skill</a>
+                                <a href="#skill-self-assessment"
+                                    class="list-group-item list-group-item-action py-2">Skill Self-Assessment</a>
+                                <a href="#references" class="list-group-item list-group-item-action py-2">References</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class=" pt-4 pb-4 footer-1">
+            <div class="container">
+                <div
+                    class="row flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-between text-center text-lg-left">
+                    <div class="col-auto">
+                        <div class="d-flex flex-column flex-sm-row align-items-center text-small">
+                            <div class="text-muted">
+                                &copy; 2020 SESTOPIA - Team A
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto mt-3 mt-lg-0">
+                        <ul class="list-unstyled d-flex mb-0">
+                            <li class="mx-3">
+                                <a href="#" class="hover-fade-out">
+                                    <img src="https://softwarewiki.faridibin.tech/images/github.svg" alt="Github"
+                                        class="icon icon-xs bg-white" data-inject-svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="modal fade" id="subscribe" tabindex="-1" role="dialog" aria-labelledby="subscribeLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header border-bottom-0">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#top" class="btn btn-primary rounded-circle btn-back-to-top" data-smooth-scroll data-aos="fade-up"
+            data-aos-offset="2000" data-aos-mirror="true" data-aos-once="false">
+            <img src="https://softwarewiki.faridibin.tech/images/icon-arrow-up.svg" alt="Icon" class="icon">
+        </a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,1104 @@
+"id","name","classification","prerequisites","related_software_engineering_area","rationale","roles","related_work","real_world_example","role_of_academia","tools","self_assessment","references","created_at","updated_at"
+"1",,,,,,,,,,,,,,
+"2","<p>Elicitation of Requirements</p>","<p>
+    Requirements elicitation is a skill that requires both, strong technical skills
+    in addition to strong non-technical (soft skills).
+    Bridging between business problems and its technological solution involves both,
+    a lot of interaction with the stakeholders and strength in understanding the
+    technology (software).
+    Therefore, the requirement analyst should have sufficient software knowledge to
+    be able to gather the technical constraints in addition to being a great
+    communicator.
+</p>
+<p>To clarify more the important skills for a good requirement analyst who can
+    elicit requirements:
+</p>
+<ul>
+    <li>Fundamentals skills: One must possess communication skills, management
+        skills, problems solving skills, as well as research skills.
+    </li>
+    <li>Business Analysis skills: Comprehension and documentations skills are
+        paramount to this role especially when coupled with creativity.
+    </li>
+    <li>Technical skills: Knowledge of software and IT skills in addition to
+        experience in creating test cases and running acceptance testing with
+        stakeholders.
+    </li>
+</ul>","<p>
+                                        A requirement analyst is needed to conduct elicitation. Experience in
+                                        understanding the problem domains of different software project and identifying
+                                        the critical system stakeholders are important traits.
+                                        Prerequisites for this skill include excellent communication skills to interact
+                                        with the stakeholders for interviews, run background studies for the
+                                        system-to-be, and gather useful data through questionnaires, flowcharts and
+                                        surveys.
+                                        A good requirement analyst also must have a strong eye for scope to help the
+                                        stakeholders narrow down requirements toward a set of important requirements
+                                        that can be implemented.
+                                    </p>","<p>
+                                        Requirements elicitation activities are related to Software Requirement
+                                        Engineering as a whole.
+                                        Moreover, Requirement Engineering is related closely to Software Design,
+                                        Software Testing, Software Maintenance, Software Configuration Management,
+                                        Software Quality in addition to other areas.
+                                    </p>","<p>
+                                        Requirements elicitation is a skill that has a big role in determining the level
+                                        of success of a certain project, therefore it plays a big role in a project's
+                                        fate.
+                                        With the endless and changing requests of stakeholders, the requirement analyst
+                                        working in the elicitation plays an important part in this role.
+                                        This skill was chosen because it extracts useful requirements and helps software
+                                        engineers select the correct elicitation techniques for identifying the right
+                                        stakeholders and paves the way towards the right interaction.
+                                        Organizational and technical constraints for the system-to-be is also clarified
+                                        in the elicitation phase. </p></p> With all of this in place, the elicitation
+                                        done helps to minimize errors or missing requirements, after the project's
+                                        delivery, that is usually costing hundred times more to fix.
+                                        Since there will be continuous discussions with the stakeholders, alternative
+                                        feasible solutions are always suggested to satisfy the completion of the project
+                                        within the given timeframe meeting the delivery deadline.
+                                        For example, a requirement engineer would explain what is meant by a “wicked
+                                        problem”, by providing examples of such problems (in one of the meetings with
+                                        stakeholders) to avoid having any.
+                                    </p>","<p>
+                                        The Requirement Engineer and Technical requirement analyst play an essential
+                                        role in requirement engineering and specifically in requirements elicitation.
+                                        They are responsible in eliciting the needed requirements from main users and
+                                        other stakeholders. Since the RE/BA are responsible in capturing the intial
+                                        details from the customer/stakeholders, they have a responsibility to minimze
+                                        the cognitive distance with the software PM/development team.
+                                    </p>","<p>
+    After gathering several requirements through various elicitation techniques (and
+    possibly selecting the most optimal approaches), requirement modeling is
+    produced once all the requirements are elicited.
+    The requirement modeling can be modeled using UML (Unified Modeling Language),
+    while it is provided to the clients/stakeholders in the business language. Use
+    case diagrams and activity diagrams would also accomplish this.
+</p>
+<p>Click on the link (on the right) for an example of a Use Case
+    diagram: <a href=""https://i.ytimg.com/vi/jhHP6AeRFj8/maxresdefault.jpg""> UC
+    diagram example</a>
+</p>","<p>
+                                        Selecting One artifact-driven elicitation technique that could be used would be
+                                        Card sorts and Repository grids.
+                                        A hypothetical example would be having an open dialogue to discuss a project
+                                        similar to a streaming website, such as ""YouTube"". The scenario provided is
+                                        based on the <em> Brainstorming and User Story </em>
+                                        technique. In this scenario, ""the card"" was used to note down these
+                                        requirements.</p>
+                                    <p>The round of discussions for gathering requirements would be as follows (written
+                                        down on the Cards):</p>
+                                    <ol>
+                                        <li> <em> Point 1:</em> ""A Website for streaming Videos created by Users.""</li>
+                                        <li> <em>Point 2:</em> ""Different types of users exist. Some are contributors,
+                                            and some are only watchers (users streaming videos only) ""</li>
+                                        <li> <em>Point 3:</em> ""The contributors would be called creators. And as a
+                                            creator, they can upload videos 24/7.""</li>
+
+                                        <br>
+                                        At this point, there can be a conversation or an open dialogue discussion on the
+                                        points written down on the cards:
+
+                                        <li> <ins><em>Discussion 1:</em></ins> ""Finding a video/video category: there
+                                            should be a search bar based on keywords.""</li>
+                                        <li> <ins><em>Discussion 2:</em></ins> ""How to upload: There should be an upload
+                                            button that creates a one-shot upload from the local machine of a user to
+                                            the website""</li>
+                                        <li> <ins><em>Discussion 3:</em></ins> ""User files sizes: Video files should be
+                                            restricted to 100 MB and a length of 5 minutes""</li>
+                                        <li> <ins><em>Discussion 4:</em></ins> ""User file format: Standard video files
+                                            as .mp4 and .mpg""</li>
+                                    </ol>
+                                    
+                                    <img src=""https://www.modernanalyst.com/Portals/0/Users/064/44/33344/Challenge%20Humor.JPG""
+                                        width=""400"" height=""400"" right=""1000"" class=""mb-5"">","<p>
+                                        Research papers and academic books nurture the idea of elicitation.
+                                        Currently, there is a focus on the types of interviews being done, and whether
+                                        they are structured interviews or unstructured, to check which collects more
+                                        information compared to the other.
+                                        Different research papers are conducting surveys and evaluating some techniques
+                                        for eliciting requirements of computer-based systems, paying particular
+                                        attention to how they deal with social issues.
+                                    </p>","<p>
+    Elicitation techniques have complementary strengths and limitations.
+    There are artifact-driven and stakeholder-driven elicitation techniques.
+    Elicitation is being practiced on small and large complex projects. 
+</p>
+<p>The following provides a list of techniques used for elicitation:</p>
+<ol type=""I"">
+    <li><strong> Brainstorming and User Story </strong></li>
+    <li><strong> Document Analysis </strong></li>
+    <li><strong> Focus Group </strong></li>
+    <li><strong> Interviews </strong></li>
+    <li><strong> Interface Analysis </strong></li>
+    <li><strong> Observation </strong></li>
+    <li><strong> Prototyping </strong></li>
+    <li><strong> Survey/Questionnaire </strong></li>
+</ol>
+<p> A 7 minute video explaining what is Artifcat-Driven elicitiation: </p>
+<iframe width=""560"" height=""315"" src=""https://www.youtube.com/embed/uL2ykbxaQ2o""
+    frameborder=""0""
+    allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture""
+    allowfullscreen class=""mb-5""></iframe>
+<p> To compare the various elicitation techniques and showing the strengths and
+    weaknesses of each, please refer to the below table: 
+</p>
+<table style=""font-size: 12px;"" class=""table table-sm"">
+    <thead>
+        <tr>
+            <th>Name of technique </th>
+            <th>Strengths </th>
+            <th>Weaknesses </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> Brainstorming and User Story</td>
+            <td> Speed of idea collection</td>
+            <td> Sometimes, participants are not creative and prepared </td>
+        </tr>
+        <tr>
+            <td>Document Analysis</td>
+            <td>Reuse of existing material</td>
+            <td>Finding information could be difficult</td>
+        </tr>
+        <tr>
+            <td>Focus Group</td>
+            <td>Saves time and cost by eliciting many requirements</td>
+            <td>Shortage of solid/numerical data</td>
+        </tr>
+        <tr>
+            <td>Interviews</td>
+            <td>Direct way of questioning the stakeholders</td>
+            <td>The interviewer must be well-prepared and experienced in
+                software projects to get the needed answers 
+            </td>
+        </tr>
+        <tr>
+            <td>Observation</td>
+            <td>Captures and elicits information not found in the documentation
+            </td>
+            <td>Due to the limited period, abnormal observations may be missed
+            </td>
+        </tr>
+        <tr>
+            <td>Prototyping</td>
+            <td>Minimizes the adherence distance</td>
+            <td>Limited to a certain scale due to cost andn budget factors </td>
+        </tr>
+        <tr>
+            <td>Survey/Questionnaire</td>
+            <td>Yields a large set of results that could be quantitative </td>
+            <td>Could open the door to some unanswered questions due to missing
+                information 
+            </td>
+        </tr>
+    </tbody>
+</table>","<p>
+                                        6/10</p>
+                                        <p>The best way to assess and self-evaluate is to measure <em>what one knows versus
+                                            what one does not know</em>.
+                                        My knowledge in this area is limited to the readings I have done, in addition to
+                                        eliciting requirements for projects done in Academia, however not in practical
+                                        real world projects.
+                                        This is the main reason why I would give myself this rating, as I feel I am
+                                        lacking adequate industry experience, and as a result, I may have missed
+                                        touching some corners.
+                                        In addition to that, I cannot judge how useful a Group Brainstorming session
+                                        with multiple stakeholder is, compared with a one-on-one interview with a
+                                        stakeholder, and which is more effective in terms of communication channel and
+                                        productivity.
+                                        This rating is based on my understanding, after acknowledging and realizing how
+                                        important it is to elicite. The input it provides is massive to steer a project
+                                        in the right path.
+                                        In addition to that, I think there could be some issues in recalling all of the
+                                        points being discussed after every successive interview/meeting. Also, there
+                                        should be equal attention on all details being discussed (so there is nothing
+                                        missed).
+                                        Elicitation requirements sheds the light and emphasizes how important
+                                        communication and agreement are for the success of a project.
+                                    </p>","<p>Please find below the list of references used in writing this web page:</p>
+                                        <ul>
+                                            <li>Wikipedia. Requirements_elicitation.
+                                                https://en.wikipedia.org/wiki/Requirements_elicitation</li>
+                                            <li>Pierre Bourque, Richard E. Fairley (2014). Swebok V3.0. Guide to the
+                                                Software Engineering Body of Knowledge</li>
+                                            <li>Axel van Lamsweerde (2009). Requirements Engineering: From System Goals
+                                                to UML Models to Software Specifications</li>
+                                            <li>Pankaj Kamthan. On Distances in Software Engineering.
+                                                https://users.encs.concordia.ca/~kamthan/courses/soen-6011/se_distances.pdf
+                                            </li>
+                                            <li>JosephA.Goguen, CharlotteLinde. Techniques for Requirements Elicitation.
+                                                https://pdfs.semanticscholar.org/dfa9/c873a3039c27fef9901bad0341f47c8275e2.<br>pdf?_ga=2.103306437.497009371.1596861978-1104115924.1596861978
+                                            </li>
+                                        </ul>",,
+"3","<p>Proper Documentation (Code and Design Documentation)</p>","<p>
+    This Skill of High-Quality Documentation is a technical skill because it
+    requires
+    software engineering knowledge and expertise to build the required mental
+    model for proper documentation.</p>
+<p>
+    It can also be classified as a knowledge-based skill because it requires
+    some form of technical knowledge to an extent.
+</p>","<p>
+    Some of the prerequisites that are expected of a software developer trying
+    to
+    document a software system includes the following:
+</p>
+<ul>
+    <li> Proper knowledge of the basics of programming and a programming
+        language;
+        the knowledge of the basics of programming language helps a software
+        maintainer to
+        decipher the source code of a software system.
+    </li>
+    <li> Understanding the software engineering principle; separation of
+        concerns
+        (Separating documentation in terms of structure, content, and
+        layout).
+    </li>
+    <li>
+        Adequate Understanding of the difference between these artifacts:
+        User Manual,design documentation,
+        Process Documentation,Code Documentation etc.
+    </li>
+    <li>
+        Sufficient knowledge of the domain for the software being documented
+    </li>
+    <li>
+        Computational Thinking,the ability to think in a computational
+        manner aids the
+        understanding of the problem being solved and the solution provided
+        by the software system.
+    </li>
+    <li>
+        Proper knowledge of mind mapping as it helps to visualize
+        compartmentalize information to be documented.
+    </li>
+</ul>","<p>
+    Software Development Processes usually produce some artifacts based on the
+    phase in the process
+    .For most of phases in the development process a form of documentation is
+    usually produced.
+</p>
+<p>
+    As such the following knowledge areas are considered related to the
+    documentation skill:
+</p>
+<ol>
+    <li>
+        <b>Software Requirements</b>: In this knowledge
+        area one of the artifacts produced is the requirements Documentation
+        and this artifact requires the documentation skill.The software
+        requirement specification document
+        is used to communicate the objective and functionality of the system
+        to the stakeholders.
+    </li>
+    <li>
+        <b>Software Design</b>:The major artifact
+        produced in this knowledge area is the design documentation
+        which includes information about all the major design decisions that
+        were taken during the
+        development of the software system and the rationale behind them,
+        this documentation also
+        requires the documentation skill as it adds to the mental model of
+        the maintainer regarding the software system.
+    </li>
+    <li>
+        <b>Software Construction</b>:This knowledge
+        area produces the source code with comments
+        (for maintenance). This process of including proper comments in the
+        source code,could
+        also benefit from the proper documentation skill as such this
+        knowledge area is
+        included in the related software engineering areas.
+    </li>
+    <li> <b> Software Maintenance</b>: This is one of
+        the driving forces for this skill. Code and Design Documentation
+        is considered important to maintainers of a software system because
+        it makes information about
+        the design decisions made by the programmers, architect of the
+        software system, easily and readily
+        available .Thus improving the mental model of the maintainers
+        regarding the software system,
+        which improves their understanding of the system ultimately making
+        it easier to maintain the system.
+    </li>
+</ol>","<p>
+    The Significance of software documentation has been emphasized by numerous
+    researchers over the years each
+    explicitly explaining the reasons why software documentation should be
+    considered important.
+</p>
+<p>
+    In( parnas,2011) The author stated that “The prime cause of the sorry “state
+    of the art” in software development
+    is our failure to produce good design documentation.” . He stated that the
+    lack proper documentation
+    during the development process is the cause of many errors and it reduces
+    efficiency in a software product
+    development and use .As such to ensure software systems of good quality and
+    maintainable quality are developed,
+    it is important for software developers to have good documentation skill
+    alongside other soft skills and hard
+    skills required for the job.
+</p>
+<p>
+    Also, In (Kipyegen & Korir, 2013) titled “Importance of software
+    Documentation” the authors stated
+    that “Documentation is an activity that needs to commence early in
+    development and continue
+    throughout the development lifecycle”. This implies that documentation is
+    prevalent
+    throughout all the phases of development in a proper development life cycle
+    as such there is need
+    for the documentation skill at every phase of the software development to
+    ensure maintainability of the
+    software and increase the probability of re-use, which increases the
+    importance of the documentation skill.
+</p>
+<p>
+    Finally, over the years, it has been concluded by multiple researchers that
+    good documentation is important for
+    posterity sake, it increases the lifespan ultimately of the software system.
+</p>","<p>
+    The major role for people with the skill is a technical writer(As a
+    technical writer
+    you can work alongside other members of a software development team ).
+    However, according to (Raise Labs,2019) some other roles for people with
+    this skill includes the following:
+</p>
+<ul>
+    <li>Technical Communication Specialists.</li>
+    <li> Content Developers.</li>
+    <li>Manual Writers. </li>
+    <li>Documentation Specialist. </li>
+    <li>Policy Writers. </li>
+</ul>","<p>
+    For this skill, the typical artifact produced by this skill is a form of
+    Text
+    Document(Design Document,JavaDoc Document,Process Documentation) which could
+    be of the following
+    extension types: txt,pdf, latex , HTML etc . 
+    Although video documentation has been suggested, it has not been readily
+    accepted as
+    there have been some issues about the accessibility of its
+    information(Jakub, Why Video Documentation Isn't the Answer 2016).
+</p>
+<p>Some related activities to proper documentation include the following:</p>
+<ul>
+    <li>mind mapping of the document structure and layout </li>
+    <li> Determining the level of abstraction for documentation.</li>
+    <li> Defining the scope of the document.</li>
+    <li> Visualizing the process. </li>
+    <li> Ensuring the documentation is up to date.</li>
+</ul>
+<p> For more information about Documentation Activities click
+    <a
+        href=""https://creately.com/blog/diagrams/process-documentation-guide"">here</a>.
+</p>","<p>
+    Some examples of software projects artifacts created using documentantion
+    skill includes :
+</p>
+<ul>
+    <li> The JavaDoc Documentation for the <a
+        href=""https://docs.spring.io/spring/docs/"">Spring FrameWork</a>.
+    </li>
+    <li>
+        The Design Document for <a
+            href=""https://developer.mozilla.org/en-US/docs/Archive/Meta_docs/MDC_design_document#Information_Architecture"">Mozilla</a>.
+    </li>
+</ul>","<p>
+    In Schools, most tertiary institutions have courses that study each of the
+    phases
+    in the software engineering life cycle in their software engineering
+    programs.
+    These courses introduce the artifact produced by that phase of the process.
+    Documentations are artifacts produced at the end of some development process
+    phases
+    .
+</p>
+<p> So, academia contributes to the knowledge of the documentation skill through
+    courses in the programs and school projects for the experience. Schools also
+    cultivate this skill by teaching about the importance of documentation
+    through courses
+    like software maintenance and refactoring.
+</p>
+<p>
+    In the industry, organizations mostly with high process maturity levels
+    focus
+    on providing employees with the necessary skills for optimal work so they
+    provide opportunities for employees to learn through seminars and online
+    classes. Also, the industry allows for gaining more knowledge of the skill
+    through practice.
+    These are the ways the industry and Academia cultivate documentation skills.
+</p>","<p>
+    For most types of documentation such as design documentation and process
+    documentation a simple
+    word processing application ( <b"">Microsoft Word, Google
+    Docs</b>) will suffice.
+</p>
+<p>
+    For a more research inclined document or if the documentation requires
+    scientific
+    components <b>LaTex</b> is another tool for documenting
+    that provides scientific features .
+</p>
+<p>
+    As regards Generating Documentation from source code some of the available
+    technologies include:
+    It is worth noting that these tools for generating documentation from source
+    code require some form of annotation in the source
+    code that is supported by these tools.
+</p>
+<ul>
+    <li> Junit: THis is the documentation generator for the Java Programming
+        Language.
+    </li>
+    <li>Doxygen : This can be used for generating documentation from C++
+        source code although it also supports
+        other programming languages. 
+    </li>
+    <li> Phpdocumentor:This can be used for generating documentation from
+        PHP SourceCode. 
+    </li>
+    <li> <a href=""https://www.education-ecosystem.com/"">LiveEdu</a>: This a
+        tool that allows for video documentation of
+        code(Garbade, 2016).
+    </li>
+</ul>","<p>
+    During the duration of this course and in my previous school classes, I have
+    had the opportunity to gain more knowledge about what it entails to create
+    high-quality documentation through research work online, industry peoples
+    experience through blogs, readily accessible design documents, and school
+    syllabus.
+    I have also been privileged to practice my knowledge in various school
+    projects.
+</p>
+</p>
+However, to master this skill a substantial amount of experiential knowledge
+is
+required (mostly from the industry) which I have not had. For this reason,
+I assign <b>7</b> as my score. I have the foundation of the skill covered but
+require more practice to improve my expertise on this skill.
+</p>","<ul>
+    <li> Kamthan, P. (2020, July). INTRODUCTION TO SOFTWARE ENGINEERING
+        DOCUMENTATION. Retrieved 2020,
+        from
+        https://users.encs.concordia.ca/~kamthan/courses/soen-6011/se_documentation_introduction.pdf
+    </li>
+    <li>Parnas D.L. (2011) Precise Documentation: The Key to Better Software.
+        In: Nanz S. (eds) The Future of Software Engineering. Springer, Berlin,
+        Heidelberg.
+    </li>
+    <li>Kipyegen, N. J., & Korir, W. P. (2013). Importance of Software
+        Documentation. IJCSI International Journal of Computer Science Issues,
+        10(5). doi:https://www.ijcsi.org/papers/IJCSI-10-5-1-223-228.pd
+    </li>
+    <li> Rachel, T. (2019, July 03). Why documentation matters, and why you
+        should include it in your code. Retrieved July 26, 2020, from
+        https://www.freecodecamp.org/news/why-documentation-matters-and-why-you-should-include-it-in-your-code-41ef62dd5c2f/
+    </li>
+    <li>Raise Labs, I. (n.d.). Technical Writers: Salary, career path, job
+        outlook, education and more. Retrieved July 26, 2020, from
+        https://www.raise.me/careers/media-and-communication/technical-writers
+    </li>
+    <li>J. (2016, July 26). Why Video Documentation Isn't the Answer. Retrieved
+        August 07, 2020, from
+        https://stormpath.com/blog/video-documentation-isnt-answer
+    </li>
+    <li>Garbade, D. J. (2016, August 15). 10 Tools for the Perfect Code
+        Documentation. Retrieved August 08, 2020, from
+        https://blog.education-ecosystem.com/code-documentation-tools/
+    </li>
+    <li>Hariharan, Sriram. 10 Most Popular Tools for Technical Writing.
+        25 June 2020, document360.io/blog/tools-for-technical-writing/.
+    </li>
+    <li>Souza, Sergio Cozzetti B. de, Anquetil, Nicolas, & Oliveira,
+        Káthia M. de. (2006). Which documentation for software
+        maintenance?. Journal of the Brazilian Computer Society, 12(3),
+        31-44. https://doi.org/10.1007/BF03194494 
+    </li>
+    <li> Kothari, V. (2020, May 13). Software Requirement Documentation:
+        Importance And Best Practices. Retrieved July 25, 2020, from
+        https://www.movinnza.in/blog/software-requirement-documentation/
+    </li>
+</ul>",,
+"4","<p>Planning Measurement Process<p>","<p>
+    Planning Measurement Process is a technical skill. It mainly concerns the
+    requirement, definition, analysis and evolution of measurement attributes.
+    To get the best results, Planning is recommended prior to the development
+    process so that necessary changes can be made while developing the software
+    product. After planning the process comes the part where the plan is executed
+    and later on improved by evolving plans as the product gets developed and there
+    are different measurement needs.
+</p>","<p>
+    Software Requirement Analysis is needed to gather information for the project
+    and to identify the metrics needed to measure. The first part of the planning is
+    to identify the scope of the measurement process and to establish a plan that is
+    on par with the project goals. 
+</p>
+<p>
+    Planning is done each time a process is executed and the results are used to
+    improve the process in the project. So, each time a process is executed the data
+    are collected and then used to develop another improved planning process.
+</p>","<p>
+    Software Measurement is a part of Software Engineering Management, which include
+    other interrelated areas e.g Initiation and Scope Definition, Software Project
+    Planning, Software Project Enactment, Review and Evaluation.
+</p>
+<p>
+    Measurement is an integral part of Software Testing, Maintenance and Quality.
+    The metrics of these areas provide qualitative and quantitative measures to
+    determine several factors e.g. maintainability, readability, progress of
+    software testing effort.
+</p>","<p>
+    Measurement is an important aspect in all engineering disciplines and it is the
+    same for Software Engineering. It is a crosscutting skill area and provides
+    metrics that help evaluate a process, so as to improve the development process,
+    so that minimum resources (in terms of time and cost) are used.
+</p>
+<p>
+    A well-planned software measurement process benefits an organization in several
+    ways. For example, it allows to identify and resolve risk issues before it is
+    there. It provides means to improve the quality of software as well as the
+    productivity and it gives the idea whether the software process is feasible
+    enough to meet the organizational goals.
+</p>","<p>Project Manager, Team Leader are involved in planning a measurement process. </p>","<p>
+    Planning Software Measurement Process is the first initiative of the Software
+    Measurement Architecture, which is followed by Implementation and Improvement of
+    the Measurement Process.
+    The activities related to Planning Software Measurement Process include [3]:
+</p>
+<ul>
+    <li> Identifying the measurement scope and needs which are directly related to
+        organizational goals.
+    </li>
+    <li> Choose the measures needed and the measurement scales.</li>
+    <li> Choose methods to collect data.</li>
+    <li> Initialize target values and goals that need to be achieved.</li>
+    <li> Gather the tools required for measurement.</li>
+    <li> Plan to analyze and store data in a storage.</li>
+</ul>","<p>
+    In software development organizations, while planning for the measurement
+    process, efficiency and effectiveness are commonly measured. This is done to
+    understand whether the process is “doing things right” and “doing the right
+    things”.
+</p>
+<figure class=""my-5"">
+    <img src=""https://www.isixsigma.com/wp-content/uploads/images/stories/migrated/graphics/311a.gif""
+        width=""400"" height=""400"" right=""1000"">
+    <figcaption>CMMI Measurement and Analysis</figcaption>
+</figure>
+<p>
+    Capability Maturity Model Integration (CMMI) is a model which serves as the
+    baseline for software companies for improvement, productive and efficient
+    behaviors. Measurement and Analysis is included as a Level 2 support in the
+    CMMI[4].
+</p>","<p>
+    In Academia research on different software metrics are still being made. This
+    will lead to better understanding of metrics used in different aspects of
+    Software Development Process. 
+</p>
+<p>Moreover, in the industry, project managers use metrics collected from past
+    projects, which are used as the basis to understand the estimates of time and
+    effort of the current project. So, as a software is being developed the metrics
+    are compared to monitor and control the process. This results in better quality,
+    less defects in the software and the amount of rework is lessened, which of
+    course reduces the overall production cost. Therefore, metrics used to evaluate
+    a process serves as a reference for future projects.
+</p>","<ul>
+    <li>Taiga </li>
+    <li>SonarQube </li>
+    <li>SoMeSPC</li>
+    <li> JavaNCSS</li>
+    <li> Microsoft Excel for spreadsheets </li>
+</ul>","<p>
+    My Skill Score: 7/10 
+</p>
+<p>My knowledge on Software Measurement is based on the course SOEN 6611, where I
+    worked on cost and effort estimation, Productivity measures and Data collection.
+    I used JavaNCSS Maven plugin. But I would have given more score if I implemented
+    this knowledge in a real-world software development environment.
+</p>","<p>Please find below the list of references used in writing this web page:</p>
+<ul>
+    <li> SWEBOK3</li>
+    <li> McAndrews. Donald, ""Establishing a Software Measurement Process,""
+        Software Engineering Institute, Carnegie Mellon University, Pittsburgh,
+        Pennsylvania, Technical Report CMU/SEI-93-TR-016 , 1993.
+        http://resources.sei.cmu.edu/library/asset-view.cfm?AssetID=11917/li>
+    <li> Practical Software Measurement: Measuring for Process Management and
+        Improvement”, William A. Florac Robert E. Park Anita D. Carleton April
+        1997
+    </li>
+    <li> https://www.isixsigma.com/industries/software-it/connecting-six-sigma-cmmi-measurement-and-analysis
+    </li>
+</ul>",,
+"5",,,,,,,,,,,,,,
+"6","<p>Regression Testing</p>","<p>Functional testing is testing the ‘Functionality’ of a software or an application
+    under test. It tests the behavior of the software under test. Regression testing
+    is a type of functional testing.
+</p>
+<p>Regression testing is carried out on receiving the build of the software after
+    fixing the bugs that were found in the initial round of testing. It verifies
+    whether the bugs are fixed and checks if the entire software is working fine
+    with the changes.
+</p>","<ol>
+    <li>Code that is being regression tested should be under a configuration
+        management tool.
+    </li>
+    <li>No changes must be allowed to code, during the regression test phase.</li>
+    <li>Regression test code must be kept immune to developer changes.</li>
+    <li>The database used for regression testing must be isolated.</li>
+    <li>No database changes should be allowed.</li>
+    <li>Configuration management.</li>
+</ol>
+<p> To plan an effective regression testing one should determine first:</p>
+<ol>
+    <li>what test-cases must be executed</li>
+    <li>what must be improved and changed in the test-cases</li>
+    <li>when it is necessary to execute regression testing of the system</li>
+    <li>what and how should be automated</li>
+    <li>what is needed to perform the automated testing</li>
+    <li>how to analyze the outcomes of the regression testing</li>
+</ol>
+<p> Technical skills that one should master to become a brilliant regression testing
+    engineer:
+</p>
+<ol>
+    <li>Knowledge of Programming languages</li>
+    <li>Database concepts</li>
+    <li>Project life cycle</li>
+    <li>Testing concepts</li>
+    <li>Testing types</li>
+    <li>Test plan idea</li>
+    <li>Ability to analyze requirements</li>
+    <li>Documentation skill</li>
+    <li>Testing tools</li>
+</ol>","<p><u>UNIT TESTING:</u>
+    Unit testing is a level of software testing where individual units or
+    components
+    of a software are tested. The purpose is to validate that each unit of
+    the
+    software performs as designed. A unit is the smallest testable part of
+    any
+    software. It usually has one or a few inputs and usually a single
+    output.
+</p>
+<p><u>INGTEGRATION SYSTEM:</u>
+    Integration testing is a level of software testing where individual
+    units are
+    combined and tested as a group. The purpose of this level of testing is
+    to
+    expose faults in the interaction between integrated units. Test drivers
+    and test
+    stubs are used to assist in Integration Testing.
+</p>
+<p><u>SYSTEM SYSTEM:</u>
+    System testing is a level of testing that validates the complete and
+    fully
+    integrated software product. The purpose of a system test is to evaluate
+    the
+    end-to-end system specifications. Usually, the software is only one
+    element of a
+    larger computer-based system.
+</p>
+<p><u>ACCEPTANCE TESTING:</u>
+    Acceptance testing, a testing technique performed to determine if the
+    software
+    system has met the requirement specifications. The main purpose of this
+    test is
+    to evaluate the system's compliance with the business requirements and
+    verify if
+    meets the required criteria for delivery to end users.
+</p>","<p>The purpose of Regression Testing is to verify if code change introduces
+    issues/defects into the existing functionality. There are so many kinds
+    of
+    possible changes that can impact the existing functionality in an
+    application
+    system. Even the simplest change to the code could impact the previously
+    tested
+    functionality. Regression is initiated when a programmer fixes any bug
+    or adds a
+    new code for new functionality to the system. There can be many
+    dependencies in
+    the newly added and existing functionality. It is a quality measure to
+    check
+    whether the new code complies with the old code so that the unmodified
+    code is
+    not getting affected. Most of the time the testing team has the task to
+    check
+    the last minute changes in the system. In such a situation, testing only
+    affected application area is necessary to complete the testing process
+    on time
+    by covering all the major system aspects.
+    This test is very important when there is a continuous
+    change/improvement added
+    in the application. The new functionality should not negatively affect
+    the
+    existing tested code. Regression is required to find the bugs that
+    occurred
+    because of a change in the code. If this testing is not done, the
+    product might
+    get critical issues in the live environment and that indeed can lead the
+    customer into trouble.
+</p>","<ul>
+    <li>Regression testing can be used not only for testing the correctness of
+        a
+        program but often also for tracking the quality of its output. For
+        instance, in
+        the design of a compiler, regression testing could track the code size
+        and the
+        time it takes to compile and execute the test suite cases. Change in
+        requirements and code is modified according to the requirement
+    </li>
+    <li>New feature is added to the software</li>
+    <li>Defect fixing</li>
+    <li>Fixing performance issues</li>
+    <li>The overall purpose of regression testing is to easily and effectively
+        uncover
+        all possible software regressions, whether they were newly created
+        (local /
+        remote) or previously undiscovered (unmasked).
+    </li>
+</ul>","<p>An integral part of software testing, test artifacts are the various
+    by-products
+    generated during the process of software testing, which are then shared
+    with the
+    clients, team managers, team lead, and other team members and
+    stakeholders
+    associated with the project. The main purpose of these artifacts is to
+    establish
+    transparency among the team members and therefore are recorded properly
+    with
+    accurate information and details.
+    These artifacts help testers know the requirements of the clients and
+    the
+    stakeholders as well as allows them to ensure that there is no
+    miscommunication
+    between them.
+</p>
+<p>
+    Responsibilities of Regression testers are:
+</p>
+<ul>
+    <li>Planning the test</li>
+    <li>Making sure that all the necessary resources required for the execution
+        of
+        testing activities are available.
+    </li>
+    <li>Making sure that the test is passing hand to hand through all the
+        planned
+        passes or not
+    </li>
+    <li>Preparation of the status report of the testing activities</li>
+    <li>Interaction with the customers</li>
+    <li>Regular updating of the testing activities to the project manager</li>
+    <li>Reading and understanding of all the necessary documents that need to
+        be
+        tested
+    </li>
+    <li>Deciding how to test based on the above-procured information</li>
+    <li>Informing the test lead regarding the requirement of resources for the
+        testing
+        to be done
+    </li>
+    <li>Development of test cases and prioritization of testing activities</li>
+    <li>Execution of all the test cases</li>
+    <li>Reporting of defects</li>
+    <li>Defining the severity and priority for each defect</li>
+    <li>Fixing of defects</li>
+</ul>","<p>
+    A real-world example of regression testing is that you take your car to
+    a
+    mechanic to get the air conditioning fixed, and when you get it back,
+    the air
+    conditioning is fixed but the gas tank sensor no longer works. Another
+    example
+    has been explained in the video below.
+</p>
+<p>
+    Practical Application of Regression Testing Example with a Video<br>
+    <iframe width=""640"" height=""360"" src=""https://www.youtube.com/embed/aeu5zacsHsI""
+        frameborder=""0""
+        allow=""accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture""
+        allowfullscreen></iframe>
+</p>","<p> Top Regression Testing Companies:</p>
+<ol>
+    <li>SPEC INDIA</li>
+    <li>QA Mentor</li>
+    <li>Testlio</li>
+    <li>QualityLogic</li>
+    <li>UTOR - QA and Testing partner</li>
+    <li>KiwiQA Services</li>
+    <li>DeviQA</li>
+    <li>Testscenario</li>
+</ol>
+<p>Infostretch, an IT company optimizes Regression Testing for the
+    digital age.
+    The IT industry had contributed massively to the cultivation of
+    regression
+    testing with the emergence of automated regression testing.
+</p>
+<p>Automated regression testing is a way for a development team to
+    improve the
+    maintenance of a project, ensure high user retention rates, and
+    reduce
+    potential tech debt. With a wide range of third-party tools,
+    automating
+    regression testing is not as challenging as it would seem at first
+    glance.
+    An intelligent regression testing strategy includes knowing how to
+    automate
+    and prioritize cases, monitor their execution, and write
+    comprehensive test
+    summary reports.
+</p>
+<p>A few Research papers on Regression Testing have been listed
+    below:
+</p>
+<ul>
+    <li>Multiple regression: Testing and interpreting interactions
+        LS Aiken, SG West, RR Reno - 1991 - books.google.com
+    </li>
+    <li>Insights into regression testing (software testing)
+        HKN Leung, L White - Proceedings. Conference on Software …, 1989 -
+        ieeexplore.ieee.org
+    </li>
+    <li>Prioritizing test cases for regression testing
+        G Rothermel, RH Untch, C Chu… - IEEE Transactions on …, 2001 -
+        ieeexplore.ieee.org
+    </li>
+    <li>Incremental regression testing
+        H Agrawal, JR Horgan, EW Krauser… - 1993 Conference on …, 1993 -
+        ieeexplore.ieee.org
+    </li>
+    <li>Regression testing minimization, selection and prioritization: a
+        survey
+        S Yoo, M Harman - Software testing, verification and reliability,
+        2012 -
+        Wiley Online Library
+    </li>
+    <li>A study of effective regression testing in practice
+        WE Wong, JR Horgan, S London… - … The Eighth International …, 1997 -
+        ieeexplore.ieee.org
+    </li>
+</ul>
+<p>Books on Regression Testing:</p>
+<ul>
+    <li>Regression Testing in Era of Internet of Things and Machine Learning
+        Software Regression Tools and Methods
+    </li>
+    <li>Modeling of Test Suite Optimization Framework
+        An Enhancement of Regression Testing Techniques
+    </li>
+    <li>Path Selection Strategy for Regression Testing
+        Software Metrics Based Approach
+    </li>
+</ul>","<p>
+    Following are the most important tools used for regression testing in
+    software
+    engineering.
+</p>
+<ul>
+    <li>
+        <u>Selenium:</u> This is an open source tool used for automating web
+        applications.
+        Selenium can be used for browser-based regression testing.
+    </li>
+    <li>
+        <u>Quick Test Professional (QTP):</u>HP Quick Test Professional is automated
+        software designed to automate functional and regression test cases.
+        It use
+        VBScript language for automation. It is a Data-driven, Keyword based
+        tool.
+    </li>
+    <li>
+        <u>Rational Functional Tester (RFT):</u>
+        IBM's rational functional tester is
+        a Java
+        tool used to automate the test cases of software applications. This
+        is
+        primarily used for automating regression test cases and it also
+        integrates
+        with Rational Test Manager.
+    </li>
+    <li>
+        <u>Testimony:</u>Testimony, from Basis Technologies, is a part of the only
+        DevOps
+        and test automation platform engineered specifically for SAP
+        software. It
+        reinvents SAP regression testing by eliminating test script creation
+        and
+        maintenance and removing the need for test data management.
+    </li>
+    <li>
+        <u>Digivante:</u>
+        Digivante sets the standard for regression, usability and
+        conversion testing. It does Regression testing through scripted and
+        non-scripted tests that can take as little as 4 hours to complete.
+    </li>
+    <li>
+        <u>Testsigma:</u>
+        An ideal automated regression testing tool that suggests relevant or
+        affected test cases after a feature enhancement/bug fix. Testsigma
+        lets you
+        run regression tests right after the first check-ins, automatically,
+        within
+        a sprint.
+    </li>
+    <li>
+        <u>Sahi Pro:</u>
+        Sahi Pro is a tester focused automation regressing testing tool. It
+        is one
+        of the most popular regression testing tools that suits best for
+        testing
+        large web applications quickly and with lesser maintenance effort.
+    </li>
+    <li>
+        <u>Watir:</u>
+        Watir (pronounced as water) is a short form for Web Application
+        Testing in
+        Ruby. It uses the Ruby programming language. Watir can be used to
+        automate
+        regression testing suites
+        TestComplete
+    </li>
+    <li>
+        <u>Katalon Studio</u>
+        Katalon Studio is an automated testing solution built on top of
+        Selenium and
+        Appium for web, API, mobile, and desktop. It is recommended as a top
+        Customer's Choice by Gartner Peer Insights.
+    </li>
+    <li>
+        <u>TimeShiftX</u>
+        TimeShiftX is a date shifting software that lets you time travel
+        apps to
+        perform temporal testing.
+    </li>
+    <li>
+        <u>Ranorex Studio:</u>
+        Used by over 4,000 companies worldwide, Ranorex Studio is easy for
+        beginners
+        with a codeless click-and-go interface and helpful wizards, but
+        powerful for
+        automation experts with a full IDE.
+    </li>
+    <li>
+        <u>TestDrive</u>
+        TestDrive is an automated software quality (ASQ) solution that lets
+        you do
+        automated regression testing rapidly. It lets you come up with
+        dynamic,
+        flexible and easy deployable tests.
+    </li>
+</ul>","<p> MY SKILL SCORE: 8/10</p>
+<p>
+    On the scale, I score myself as a 8. Working on this project helped me
+    get a
+    thorough understanding of regression testing. I was aware about software
+    testing
+    and various kinds of testing, but never studied anything in depth about
+    it.The
+    task of developing my skill template led me to research all I could
+    about
+    regression testing.Hence overall, it was an excellent learning
+    experience for me
+    .
+</p>","<ul>
+    <li><a
+        href=""https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/"">
+        https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/</a>
+    </li>
+    <li><a href=""https://blog.qatestlab.com/2013/09/30/"">
+        https://blog.qatestlab.com/2013/09/30/</a>
+    </li>
+    <li><a href=""what-is-the-role-of-regression-testing-in-software-development/"">
+        what-is-the-role-of-regression-testing-in-software-development/</a>
+    </li>
+    <li><a href=""https://dzone.com/articles/what-is-regression-testing-1"">
+        https://dzone.com/articles/what-is-regression-testing-1</a>
+    </li>
+    <li><a href=""https://en.wikipedia.org/wiki/Regression_testing"">
+        https://en.wikipedia.org/wiki/Regression_testing</a>
+    </li>
+    <li><a href=""https://airbrake.io/blog/what-is/regression-testing"">
+        https://airbrake.io/blog/what-is/regression-testing</a>
+    </li>
+    <li><a href=""https://dzone.com/articles/a-brief-overview-of-regression-testing"">
+        https://dzone.com/articles/a-brief-overview-of-regression-testing</a>
+    </li>
+    <li><a href=""https://dzone.com/articles/a-brief-overview-of-regression-testing"">
+        https://dzone.com/articles/a-brief-overview-of-regression-testing</a>
+    </li>
+    <li><a
+        href=""https://www.researchgate.net/figure/Activities-that-take-place-during-software-maintenance-and-regression-testing_fig3_266446974"">
+        https://www.researchgate.net/figure/Activities-that-take-place-during-software-maintenance-and-regression-testing_fig3_266446974</a>
+    </li>
+    <li><a
+        href=""https://smartbear.com/learn/automated-testing/what-is-regression-testing/"">
+        https://smartbear.com/learn/automated-testing/what-is-regression-testing/</a>
+    </li>
+    <li><a
+        href=""https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/"">
+        https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/</a>
+    </li>
+    <li>
+        <a
+            href=""https://www.softwaretestinghelp.com/functional-testing-vs-non-functional-testing/"">
+        https://www.softwaretestinghelp.com/functional-testing-vs-non-functional-testing/</a>
+    </li>
+</ul>",,
+"7",,,,,,,,,,,,,,
+"8","<p>Software Validation</p>","<p>According to Tutorialspoint, validation testing in the V model has the four
+                                            activities:</p>
+                                        <ol>
+                                            <li>Unit Testing, validating the program </li>
+                                            <li>Integration Testing, validating the design </li>
+                                            <li>System Testing, validating the system / architecture </li>
+                                            <li>User Acceptance Testing, validating against requirements Note how this
+                                                overlaps the four levels of verification defined by Toolbox.com. It
+                                                seems
+                                                that
+                                                the terminology is not used consistently. </li>
+                                        </ol>","<ol>
+                                        <li>Understanding of Software Requirements.</li>
+                                        <li>A good knowledge of Software Quality.</li>
+                                        <li>A good knowledge of the technology at hand</li>
+                                        <li>Well understanding on the UI design principles.</li>
+                                    </ol>","<p>
+                                        Software validation falls under Software Quality Management(SQM), which is the
+                                        collection of all processes that ensure that software products, services, and
+                                        life cycle process implementations meet organizational software quality
+                                        objectives and achieve stakeholder satisfaction. SQM comprises four
+                                        subcategories: </p>
+                                    <ol>
+                                        <li>Software quality planning</li>
+                                        <li>Software quality assurance(SQA)</li>
+                                        <li>Software quality control (SQC)</li>
+                                        <li>Software process improvement (SPI</li>
+                                    </ol>","<p>
+                                        Software validation confirms that certain specifications coincide with user
+                                        needs, the software is meeting intended use and requires objective evidence that
+                                        the requirements can be consistently fulfilled.
+                                    </p>
+                                    <p>
+                                        For small to mid-sized manufacturing companies, software validation can seem
+                                        like an overwhelming task. However, the benefits of validating prove to be well
+                                        worth the cost. Some of the reasons for software validation include: </p>
+
+                                    <ol>
+                                        <li>Saving money by discovering weaknesses or flaws in processes prior to
+                                            production. </li>
+                                        <li>Providing management with a clear understanding of risks so that appropriate
+                                            decisions can be made. </li>
+                                        <li>Increasing the likelihood projects will be completed on time and within
+                                            budget. </li>
+                                        <li>Increasing product and system quality. </li>
+                                        <li>Meeting regulatory compliance. </li>
+                                    </ol>","<ul>
+                                        <li>Software Validation Engineer</li>
+                                        <li>Software Requirements Engineer</li>
+                                        <li>Stakeholders</li>
+                                    </ul>",,,,,,,,
