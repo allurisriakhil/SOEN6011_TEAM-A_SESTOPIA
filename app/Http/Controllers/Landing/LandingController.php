@@ -3,9 +3,12 @@
 namespace App\Http\Controllers\Landing;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Subscribe;
+use App\Mail\NewsletterSubscribtion;
 use App\Models\Skill;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class LandingController extends Controller
 {
@@ -41,5 +44,19 @@ class LandingController extends Controller
     public function search(Request $request)
     {
         return view('search');
+    }
+
+    /**
+     * Subscribe to newsletter.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function subscribe(Subscribe $request)
+    {
+        Mail::to($request->email)->send(new NewsletterSubscribtion());
+
+        return response()->json([
+            'subscribe' => true,
+        ]);
     }
 }

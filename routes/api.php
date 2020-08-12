@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::post('subscribe', 'Landing\LandingController@subscribe')->name('subscribe');
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
