@@ -4,6 +4,7 @@
         <div class="form-row align-items-center">
             <div class="col-8">
                 <div class="form-group">
+					<label for="email">Email Address</label>
                     <input v-model="form.email" type="email" id="email" name="email" class="form-control" :class="{ 'is-invalid': form.errors.has('email') }" placeholder="Please enter your email address">
                     <has-error :form="form" field="email"></has-error>
                 </div>

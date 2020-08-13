@@ -34,6 +34,7 @@
                     </li>
                 </ul>
                 <form class="mt-3 mt-lg-0" method="GET" action="/search">
+                    <label class="sr-only" for="search">Search</label>
                     <div class="input-group">
                         <div class="input-group-prepend">
                             <span class="input-group-text bg-white pr-0">
@@ -44,7 +45,7 @@
                                 </svg>
                             </span>
                         </div>
-                        <input class="form-control" placeholder="Type your search" type="search" name="q" value="">
+                        <input class="form-control" placeholder="Type your search" id="search" type="search" name="q" value="">
                     </div>
                 </form>
             </div>
